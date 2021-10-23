@@ -10,5 +10,8 @@ f = open('files/Задание 24/24.txt').readline()
 # print(k_max)
 
 
-# f = f.replace('PP','P P')
-# print(len(max(f.split(),key=len)))
+f = f.replace('PP','P P')
+k_max = 0
+for s in f.split():
+    k_max = max(k_max,len(s))
+print(k_max)

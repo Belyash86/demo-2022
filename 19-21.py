@@ -1,7 +1,6 @@
 from functools import lru_cache
 def moves(h):
-    a = h
-    return a+1, a*2
+    return h+1, h*2
 
 @lru_cache(None)
 def game(h):

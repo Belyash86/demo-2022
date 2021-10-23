@@ -1,4 +1,4 @@
-for x in range(100000, 0 , -1):
+for x in range(100000):
     s = x
     s = s // 10
     n = 1
@@ -7,4 +7,4 @@ for x in range(100000, 0 , -1):
         n = n * 2
     if n == 64:
         print(x)
-        break
+
